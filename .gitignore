@@ -1,0 +1,52 @@
+# Исключаем операционные файлы
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Игнорируем файлы IDE и редакторов кода
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Исключаем зависимости и сборочные файлы (если используются)
+node_modules/
+npm-debug.log*
+yarn-error.log
+dist/
+vendor/
+composer.lock
+package-lock.json
+
+# Исключаем конфигурации окружения (если есть)
+.env
+.env.local
+.env.production
+.env.development
+
+# Исключаем файлы, специфичные для WordPress
+wp-config.php
+wp-config*.php
+.htaccess
+
+# Исключаем кеши и временные файлы
+cache/
+uploads/
+debug.log
+
+# Исключаем файлы автогенерации, если используете Composer
+composer.phar
+
+# Исключаем архивы и резервные копии
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.backup
+
+# Исключаем файлы плагина, которые не нужны в репозитории
+cf7-to-telegram.zip
