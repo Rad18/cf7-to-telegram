@@ -13,4 +13,4 @@
 - Contact Form 7  
 
 ## Разработчик  
-[Rad18]  
+Rad18
